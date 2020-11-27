@@ -43,6 +43,6 @@ Although the primary function of this technical test is to assess your API desig
 
 ## From the devs at Pollen8
 
-Hopefully you'll enjoy crafting this project, as we will enjoy reviewing it! We look forward to seeing what you come up with, and maybe some time soon, working with you in the future.
+Hopefully you'll enjoy crafting this project, as we will enjoy reviewing it! We look forward to seeing what you come up with, and maybe some time soon, working with you.
 
 Good luck!
