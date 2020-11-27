@@ -41,7 +41,8 @@ Not required but would be great to see:
 
 Although the primary function of this technical test is to assess your API design and JavaScript skills, some credit will be awarded for layout and design principles applied. Feel free to use a UI library to make designing a responsive SPA easier; at Pollen8 we use Vuetify for an internal admin interface for instance.
 
+## From the devs at Pollen8
 
+Hopefully you'll enjoy crafting this project, as we will enjoy reviewing it! We look forward to seeing what you come up with, and maybe some time soon, working with you in the future.
 
-
-
+Good luck!
