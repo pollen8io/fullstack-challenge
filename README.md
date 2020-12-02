@@ -19,14 +19,16 @@ You are free to pull in whatever dependencies you feel are relevant to achieve t
 
 ## Acceptance criteria
 
-These are the things that the application must do.
-
-- Ability to create a new document.
-- The creator must be able to set an invite code to allow other users to access the document.
-- A notification that a new user has entered the document.
-- Some UI showing who is currently in the document.
+These are the things that the application must do:
+- A document that can be edited by multiple users at the same time.
 - The document must autosave a user's changes after input.
 - A way to mitigate users overwriting each others changes.
+
+Nice to haves:
+- Ability to create a new document.
+- The creator can set an invite code to allow other users to access the document.
+- A notification that a new user has entered the document.
+- Some UI showing who is currently in the document.
 
 Additional requirements:
 - Examples of how you would write tests for the app. You don’t need to have tests written for the entire app; a single component and a backend controller fully tested to show a solid understanding of how to write good quality tests will suffice.
