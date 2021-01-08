@@ -4,7 +4,10 @@
   "description": "An example scaffold of this repository's challenge",
   "main": "./index.mjs",
   "scripts": {
-    "dev": "nodemon index.mjs"
+    "dev": "nodemon index.mjs",
+    "serve": "cd vendor && vue-cli-service serve",
+    "build": "cd vendor && vue-cli-service build",
+    "lint": "cd vendor && vue-cli-service lint"
   },
   "engines": {
     "node": ">=14.15.4"
