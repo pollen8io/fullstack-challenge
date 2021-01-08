@@ -1,50 +1,7 @@
-# Pollen8 fullstack challenge
+# Pollen8 fullstack challenge example
 
-The purpose of this coding challenge is to test a candidate's ability to write concise, correct, elegant, robust, and efficient code carrying out the duties of a Full Stack Developer.
+This branch of the fullstack challenge outlined in the main branch is designed to be a starting point for you to build on. It serves as the basic foundations of what we might expect from a submission, without all of the features we've asked for.
 
-The challenge is to create a live document that can be edited by two or more users at the same time. Think Google Docs but with less of the text editing functionality - although don't let this disourage you from getting creative with it!
+We encourage you to build on this scaffolded project, as it makes use of technologies we at Pollen8 heavily rely on. However, don't let this discourage you from creating yours from scratch if you have better familiarity with either a different folder structure or different techonologies! Extra points will *not* be rewarded whether you use this branch or not.
 
-You are free to pull in whatever dependencies you feel are relevant to achieve the specified features.
-
-## Technologies
-
-- Node.js
-- Express.js, or any other major web framework (Fastify, Hapi, Restify, etc.)
-- Frontend framework of your choosing (preferably Vue.js or React)
-- JavaScript ES6+
-- GIT, GitHub workflows
-- Docker
-- PostgreSQL
-- WebSockets
-
-## Acceptance criteria
-
-These are the things that the application must do:
-- A document that can be edited by multiple users at the same time.
-- The document must autosave a user's changes after input.
-- A way to mitigate users overwriting each others changes.
-
-Nice to haves:
-- Ability to create a new document.
-- The creator can set an invite code to allow other users to access the document.
-- A notification that a new user has entered the document.
-- Some UI showing who is currently in the document.
-
-Additional requirements:
-- Examples of how you would write tests for the app. You don’t need to have tests written for the entire app; a single component and a backend controller fully tested to show a solid understanding of how to write good quality tests will suffice.
-- Documentation on how to setup and run the application.
-
-## Extra credit
-
-Not required but would be great to see:
-- The application integrated into a CI system that builds a docker image of the application. We use GitHub Actions, but feel free to use any tool you are familiar with.
-
-## UI/UX
-
-Although the primary function of this technical test is to assess your API design and JavaScript skills, some credit will be awarded for layout and design principles applied. Feel free to use a UI library to make designing a responsive SPA easier; at Pollen8 we use Vuetify for an internal admin interface for instance.
-
-## From the devs at Pollen8
-
-Hopefully you'll enjoy crafting this project, as we will enjoy reviewing it! We look forward to seeing what you come up with, and maybe some time soon, working with you.
-
-Good luck!
+If you decide to use this branch, please fork it, and send us a link to your forked repository as your submission.
