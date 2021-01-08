@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+*.env
+public/dist/
+coverage/
+.DS_STORE
+.DS_STORE?
