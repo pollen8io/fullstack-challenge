@@ -4,7 +4,7 @@
   "description": "An example scaffold of this repository's challenge",
   "main": "./index.mjs",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon index.mjs"
   },
   "engines": {
     "node": ">=14.15.4"
@@ -16,8 +16,8 @@
       "vendor/"
     ],
     "execMap": {
-      "js": "node --inspect --trace-warnings",
-      "mjs": "node --inspect --trace-warnings"
+      "js": "node --inspect --trace-warnings -r dotenv/config",
+      "mjs": "node --inspect --trace-warnings -r dotenv/config"
     }
   },
   "dependencies": {
