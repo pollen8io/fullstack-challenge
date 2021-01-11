@@ -66,6 +66,7 @@
     "jest-environment-node": "^26.0.1",
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.6",
+    "sass": "^1.32.2",
     "sass-loader": "^9.0.2",
     "vue-loader": "^15.9.1",
     "vue-template-compiler": "^2.6.11",

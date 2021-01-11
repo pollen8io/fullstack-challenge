@@ -1,5 +1,5 @@
 <template>
-  <Document id="app" />
+  <Document class="app" />
 </template>
 
 <script>
@@ -13,8 +13,16 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-#app {
-  background-color: grey;
+<style lang="scss">
+html, body {
+  background-color: #efefef;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.app {
+  margin-top: 2.5rem;
 }
 </style>

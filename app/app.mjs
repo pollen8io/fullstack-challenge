@@ -3,7 +3,7 @@ import respond from 'express-respond'
 import bp from 'body-parser'
 import cookie from 'cookie-parser'
 import nunjucks from 'nunjucks'
-import routes from './routes.mjs'
+import router from './router.mjs'
 
 export const app = express()
   .set('view engine', 'njk.html')
@@ -14,7 +14,7 @@ export const app = express()
   .use(bp.json())
   .use(bp.urlencoded({ extended: true }))
   .use(cookie)
-  .use(routes)
+  .use(router)
   .use(({ res }) => res.notFound())
   .use((_req, res, _next, e) => res.error(e))
 
