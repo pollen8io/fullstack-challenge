@@ -1,5 +1,5 @@
 <template>
-  <Document />
+  <Document id="app" />
 </template>
 
 <script>
@@ -12,3 +12,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+#app {
+  background-color: grey;
+}
+</style>

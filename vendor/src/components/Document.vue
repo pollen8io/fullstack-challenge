@@ -1,6 +1,7 @@
 <template>
   <div>
     <textarea
+      class="document"
       :value="text"
       @input="input"
       @keyup="keyup"
@@ -30,5 +31,9 @@ export default {
 }
 </script>
 
-<style>
+<style style="scss" scoped>
+.document {
+  resize: 0;
+  margin: 0;
+}
 </style>
