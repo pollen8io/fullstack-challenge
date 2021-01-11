@@ -1,6 +1,6 @@
 import express from 'express'
 import respond from 'express-respond'
-import { json, urlencoded } from 'body-parser'
+import bp from 'body-parser'
 import cookie from 'cookie-parser'
 import nunjucks from 'nunjucks'
 import routes from './routes.mjs'
@@ -11,8 +11,8 @@ export const app = express()
   .set('trust proxy', true)
   .set('x-powered-by', false)
   .use(respond)
-  .use(json())
-  .use(urlencoded({ extended: true }))
+  .use(bp.json())
+  .use(bp.urlencoded({ extended: true }))
   .use(cookie)
   .use(routes)
   .use(({ res }) => res.notFound())
