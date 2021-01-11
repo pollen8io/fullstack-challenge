@@ -18,6 +18,8 @@ export const app = express()
   .use(({ res }) => res.notFound())
   .use((_req, res, _next, e) => res.error(e))
 
+// In case you decide to add server side rendered pages, such as
+// a login page.
 nunjucks.configure('views', {
   autoescape: true,
   express: app
