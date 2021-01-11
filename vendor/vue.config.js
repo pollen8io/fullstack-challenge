@@ -2,7 +2,10 @@ module.exports = {
   outputDir: '../public/dist',
   devServer: {
     proxy: {
-      '/api': 'http://localhost:8081'
+      '/api': {
+        target: 'http://localhost:3000',
+        changeOrigin: true
+      }
     }
   }
 }
